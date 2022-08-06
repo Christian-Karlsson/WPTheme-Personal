@@ -16,5 +16,220 @@ Text Domain: WPTheme-Personal
 This theme, is licensed under the GPL.
 */
 
-*/
+body {
+	background: #8C8C8C;
+	margin: 0;
+}
 
+div.wrapper{
+
+	align-self: center;
+	width: 1200px;
+	/*height: 3952px;*/
+	min-height:100%;
+	margin: auto;
+	padding: 0;
+	top: 0;
+	bottom: 0;
+	z-index: 0;
+}
+
+div.outer {
+	height: 49px;
+	background: #404040;
+	vertical-align: middle;
+	margin: 0px;
+	padding: 0px;
+	border-style: none;
+	width: 100%;
+}
+
+div.middle {
+  	/*splay: inline;*/
+  	vertical-align: middle;
+	padding-right: 30px;
+	width: 1200px;
+	margin: auto;
+}
+
+ul.social {
+	text-decoration: none;
+	float: right;
+}
+
+li.social {
+	display: inline;
+	padding-left: 10px;
+	padding-right: 10px:
+}
+
+ul.menu {
+	text-decoration: none;
+	float: left;
+}
+
+li.menu {
+	display: inline;
+	text-decoration: none;
+	padding-right: 20px;
+}
+
+li.menu a{
+	color: #D9D9D9;
+	text-decoration-line: none;
+	font-size: 20px;
+	font-family: arboria,sans-serif;
+	font-style: normal;
+}
+
+div.article {
+	background: #D9D9D9;
+	width: 626px;
+	height: 689px;
+	border-color: #47060D;
+	border-width: 1px;
+	border-style: solid;
+	padding: 27px;
+	margin-top: 91px;
+	box-shadow: 4px 5px #47060D;
+	margin-left: 30px;
+}
+
+img.article {
+	height: 381px;
+}
+
+p.article-date {
+	margin: 0;
+	padding: 0
+	font-family: cy, sans-serif;
+/*	font-weight: 500;*/
+	font-size: 11px;
+	font-style: normal;		
+}
+
+h2.article {
+	margin: 0;
+	font-family: dejanire-headline, serif;
+	font-style: italic;
+	font-size: 28px;
+	padding-top: 5px;
+	color: #760916;
+}
+
+p.article-more {
+	text-align: right;
+	font-family: dejanire-headline, serif;
+	font-style: italic;
+	font-size: 16px;
+	color: #760916;
+}
+
+div.footer {
+	background: #404040;
+	align-self: center;
+	clear: both;
+    position: relative;
+    height: 200px;
+    margin-top: 112px;
+}
+
+div.footer-column {
+	float: left;
+	width: 33.33%;
+}
+
+div.right-side {
+	width: 410px;
+	height: 491px;
+	background: #D9D9D9;
+	border-color: #47060D;
+	border-width: 1px;
+	border-style: solid;
+	padding: 27px;
+	box-shadow: 4px 5px #47060D;
+	margin-right: 30px;
+	float: right;
+	
+}
+
+div.instagram {
+	background: #760916;
+	border-width: thin;
+	border-color:#180204;
+	width: 749px;
+	height: 310px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	align-self: center;
+	margin: auto;
+	border-style: solid;
+	margin-top: 93px;
+}
+
+p.article {
+	font-family: cy, sans-serif;
+/*	font-weight: 500;*/
+	font-size: 12px;
+	font-style: normal;
+	padding-top: 5px;
+}
+
+input[type=text] {
+  	background-color: white;
+  	background-repeat: no-repeat;
+  	padding-left: 40px;
+	placeholder="test";
+	text-decoration-color: "#000000";
+	color: #000000;
+	font-family: cy, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	height: 35px;
+	width: 350px;
+	border-radius: 20px;
+}
+
+div.newsletter {
+	background: #404040;
+	border-width: thin;
+	border-color:#D9D9D9;
+	width: 749px;
+	height: 120px;
+	align-self: center;
+	margin: auto;
+	text-align: center;
+	color: #FFFFFF;
+	font-family: dolly-new, sans-serif;
+	font-size: 30px;
+	font-style: italic;
+	border-style: solid;
+	margin-top: 61px;
+	padding-top: 15px;
+}
+
+div.column1 {
+	width: 200px;
+	float: left;
+}
+
+div.column2 {
+	vertical-align: middle;
+	padding-top: 15px;
+}
+
+.button {
+  	background-color: #DE7B08;
+  	border: none;
+  	color: #190E01;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+	height: 30px;
+	width: 100px;
+	border-radius: 20px;
+	font-size: 11px;
+	font-family: arboria,sans-serif;
+	font-style: normal;
+}
