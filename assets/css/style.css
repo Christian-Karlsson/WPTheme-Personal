@@ -16,6 +16,11 @@ Text Domain: WPTheme-Personal
 This theme, is licensed under the GPL.
 */
 
+/* Hide scrollbar for Chrome, Safari and Opera */
+.example::-webkit-scrollbar {
+  display: none;
+}
+
 body {
 	background: #8C8C8C;
 	margin: 0;
@@ -32,6 +37,14 @@ div.wrapper{
 	top: 0;
 	bottom: 0;
 	z-index: 0;
+	border-style: solid;
+	/* border-radius: 10px; */
+	border-width: thin;
+	border-color:#180204;
+	box-shadow: 4px 5px #47060D;
+	margin-bottom: 50px;
+	/* margin-top: 50px;*/
+	background: #D9D9D9;
 }
 
 div.outer {
@@ -55,12 +68,12 @@ div.middle {
 ul.social {
 	text-decoration: none;
 	float: right;
+	margin-right: 30px;
 }
 
 li.social {
 	display: inline;
 	padding-left: 10px;
-	padding-right: 10px:
 }
 
 ul.menu {
@@ -86,12 +99,7 @@ div.article {
 	background: #D9D9D9;
 	width: 626px;
 	height: 689px;
-	border-color: #47060D;
-	border-width: 1px;
-	border-style: solid;
 	padding: 27px;
-	margin-top: 91px;
-	box-shadow: 4px 5px #47060D;
 	margin-left: 30px;
 }
 
@@ -147,31 +155,49 @@ div.footer-column {
 }
 
 div.right-side {
-	width: 410px;
-	height: 491px;
+	width: 500px;
 	background: #D9D9D9;
-	border-color: #47060D;
-	border-width: 1px;
-	border-style: solid;
-	padding: 27px;
-	box-shadow: 4px 5px #47060D;
+	
 	margin-right: 30px;
 	float: right;
 	
+}
+
+div.left-side {
+	width: 650px;
+	background: #D9D9D9;
+	padding: 27px;
+	margin-right: 30px;
+	
+}
+
+div.frontpage-description {
+	width: 400px;
+	height: 500px;
+	background: #D9D9D9;
+	margin-right: 30px;
+	margin-left: 70px;
+	padding-top: 27px;
+}
+
+img.frontpage-description {
+	float: right;
 }
 
 div.instagram {
 	background: #760916;
 	border-width: thin;
 	border-color:#180204;
-	width: 749px;
-	height: 310px;
+	width: 400px;
+	height: 500px;
 	padding-bottom: 20px;
 	padding-top: 20px;
 	align-self: center;
 	margin: auto;
 	border-style: solid;
 	margin-top: 93px;
+	margin-left: 70px;
+	margin-right: 30px;
 }
 
 p.article {
@@ -201,28 +227,28 @@ div.newsletter {
 	background: #404040;
 	border-width: thin;
 	border-color:#D9D9D9;
-	width: 749px;
-	height: 120px;
+	width: 626px;
+	height: 80px;
 	align-self: center;
 	margin: auto;
 	text-align: center;
 	color: #FFFFFF;
 	font-family: dolly-new, sans-serif;
-	font-size: 30px;
+	font-size: 20px;
 	font-style: italic;
 	border-style: solid;
 	margin-top: 61px;
-	padding-top: 15px;
+	padding-top: 8px;
 }
 
 div.column1 {
-	width: 200px;
+	width: 150px;
 	float: left;
 }
 
 div.column2 {
 	vertical-align: middle;
-	padding-top: 15px;
+	padding-top: 11px;
 }
 
 .button {
@@ -247,8 +273,17 @@ h2.social {
 	font-style: italic;
 	font-size: 30px;
 	color: #707070;
+	margin-top: 30px;
+	margin-right: 30px;
+}
+
+h1 {
+	font-family: dejanire-headline, serif;
+	font-style: italic;
+	font-size: 50px;
+	color: #707070;
 	padding-top: 30px;
-	margin: 0px;
+	margin-top: 30px;
 }
 
 p.footer {
@@ -257,7 +292,7 @@ p.footer {
 	font-style: italic;
 	font-size: 25px;
 	color: #707070;
-	padding-top: 25px;
+	padding-top: 30px;
 }
 
 h2.footer-copyright {
@@ -266,8 +301,9 @@ h2.footer-copyright {
 	font-style: italic;
 	font-size: 30px;
 	color: #707070;
-	padding-top: 30px;
-	margin: 0px;
+	margin-top: 30px;
+	margin-left: 30px;
+	padding-bottom: 0px;
 }
 
 p.footer-copyright {
@@ -276,5 +312,5 @@ p.footer-copyright {
 	font-style: italic;
 	font-size: 15px;
 	color: #707070;
-	padding-top: 0px;
+	margin-left: 30px;
 }
