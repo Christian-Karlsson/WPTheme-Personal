@@ -126,12 +126,19 @@ p.article-more {
 }
 
 div.footer {
+	width: 100%;
 	background: #404040;
+	margin-top: 112px;
+}
+
+div.footer-wrapper {
 	align-self: center;
 	clear: both;
     position: relative;
     height: 200px;
     margin-top: 112px;
+	width: 1200px;
+	margin:auto;
 }
 
 div.footer-column {
@@ -232,4 +239,42 @@ div.column2 {
 	font-size: 11px;
 	font-family: arboria,sans-serif;
 	font-style: normal;
+}
+
+h2.social {
+	text-align: right;
+	font-family: dejanire-headline, serif;
+	font-style: italic;
+	font-size: 30px;
+	color: #707070;
+	padding-top: 30px;
+	margin: 0px;
+}
+
+p.footer {
+	text-align: center;
+	font-family: dejanire-headline, serif;
+	font-style: italic;
+	font-size: 25px;
+	color: #707070;
+	padding-top: 25px;
+}
+
+h2.footer-copyright {
+	text-align: left;
+	font-family: dejanire-headline, serif;
+	font-style: italic;
+	font-size: 30px;
+	color: #707070;
+	padding-top: 30px;
+	margin: 0px;
+}
+
+p.footer-copyright {
+	text-align: left;
+	font-family: dejanire-headline, serif;
+	font-style: italic;
+	font-size: 15px;
+	color: #707070;
+	padding-top: 0px;
 }
