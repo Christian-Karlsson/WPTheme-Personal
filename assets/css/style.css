@@ -190,16 +190,16 @@ p.frontpage-signature {
 }
 
 div.instagram {
-	background: #760916;
-	border-width: thin;
-	border-color:#180204;
+/*	background: #760916; */
+/*	border-width: thin; */
+/*	border-color:#180204; */
 	width: 400px;
 	height: 500px;
 	padding-bottom: 20px;
 	padding-top: 20px;
 	align-self: center;
 	margin: auto;
-	border-style: solid;
+/*	border-style: solid; */
 	margin-top: 93px;
 	margin-left: 70px;
 	margin-right: 30px;
