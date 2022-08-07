@@ -13,14 +13,13 @@ Text Domain: WPTheme-Personal
 This theme, is licensed under the GPL.
 */
 
-/* Hide scrollbar for Chrome, Safari and Opera */
-.example::-webkit-scrollbar {
-  display: none;
-}
-
 body {
 	background: #8C8C8C;
 	margin: 0;
+}
+
+a.footer:link {
+	color: #EE2A42;
 }
 
 div.wrapper{
@@ -66,13 +65,13 @@ ul.menu {
 	text-decoration: none;
 	float: right;
 	margin-right: 30px;
-	margin-top: 6px;
 }
 
 li.menu {
 	display: inline;
 	text-decoration: none;
 	padding-left: 30px;
+	justify-content: center
 }
 
 li.menu a{
