@@ -152,6 +152,7 @@ div.footer-wrapper {
 div.footer-column {
 	float: left;
 	width: 33.33%;
+	margin-top: 30px;
 }
 
 div.right-side {
@@ -184,6 +185,13 @@ img.frontpage-description {
 	float: right;
 }
 
+p.frontpage-signature {
+	font-family: dr-sugiyama-pro, sans-serif;
+	font-size: 30px;
+	font-style: normal;	
+	text-align: right;
+}
+
 div.instagram {
 	background: #760916;
 	border-width: thin;
@@ -209,7 +217,7 @@ p.article {
 }
 
 input[type=text] {
-  	background-color: white;
+  	background-color: #D9D9D9;
   	background-repeat: no-repeat;
   	padding-left: 40px;
 	placeholder="test";
@@ -292,7 +300,6 @@ p.footer {
 	font-style: italic;
 	font-size: 25px;
 	color: #707070;
-	padding-top: 30px;
 }
 
 h2.footer-copyright {
@@ -301,7 +308,6 @@ h2.footer-copyright {
 	font-style: italic;
 	font-size: 30px;
 	color: #707070;
-	margin-top: 30px;
 	margin-left: 30px;
 	padding-bottom: 0px;
 }
