@@ -44,22 +44,11 @@ div.wrapper{
 	background: #D9D9D9;
 }
 
-div.outer {
+div.primary-menu {
 	height: 49px;
 	background: #404040;
-	vertical-align: middle;
-	margin: 0px;
-	padding: 0px;
 	border-style: none;
 	width: 100%;
-}
-
-div.middle {
-  	/*splay: inline;*/
-  	vertical-align: middle;
-	padding-right: 30px;
-	width: 1200px;
-	margin: auto;
 }
 
 ul.social {
@@ -75,13 +64,15 @@ li.social {
 
 ul.menu {
 	text-decoration: none;
-	float: left;
+	float: right;
+	margin-right: 30px;
+	margin-top: 6px;
 }
 
 li.menu {
 	display: inline;
 	text-decoration: none;
-	padding-right: 20px;
+	padding-left: 30px;
 }
 
 li.menu a{
