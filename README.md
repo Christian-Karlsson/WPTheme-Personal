@@ -1,3 +1,5 @@
 # WPTheme-Personal
 
-[!(screenshot.png)]
+![Screenshot](screenshot.png)
+
+fffff
