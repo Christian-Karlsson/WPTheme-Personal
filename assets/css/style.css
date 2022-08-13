@@ -40,15 +40,12 @@ a:link {
 }
 
 div.wrapper{
-	position: relative;
-	align-self: center;
-	width: 1140px;
-	min-height:100vh;
+
+	width: 1024px;
 	margin: auto;
 	padding: 0;
 	top: 0;
 	bottom: 0;
-	z-index: 0;
 }
 
 div.main-wrapper {
@@ -87,8 +84,7 @@ li.menu a{
 }
 
 div.article {
-	background-color: var(--box-artikel);
-	padding: 27px;
+	background-color: var(--background-color);
 }
 
 p {
@@ -104,7 +100,6 @@ p.read-more {
 }
 
 div.left-side {
-	width: 100%;
 	padding: 27px;
 }
 
@@ -118,15 +113,6 @@ p.frontpage-signature {
 	font-style: normal;	
 	text-align: right;
 	color: var(--text-color-1);
-}
-
-h1 {
-	font-family: var(--rubrik);
-	font-style: italic;
-	font-size: 50px;
-	color: #707070;
-	padding-top: 30px;
-	margin-top: 30px;
 }
 
 div.footer-wrapper {
@@ -156,13 +142,6 @@ div.older-blogposts {
 	gap: 20px;
 }
 
-div.read-more {
-	background-color: #56FCC5;
-	float: left;
-	border-radius: 15px;
-	padding: 15px;
-}
-
 p.category-small-blogpost {
 	padding-left: 5px;
 	padding-right: 5px;
@@ -175,17 +154,11 @@ p.category-small-blogpost {
 	color: #707070;
 }
 
-h3.headline-small-blogpost {
-	margin: 0;
-	padding: 0;
-	font-family: dejanire-headline, serif;
-	font-style: italic;
-	font-size: 26px;
-	color: #000000;
-}
-
 h1 {
 	color: var(--text-color-1);
+	font-family: var(--rubrik);
+	font-style: italic;
+	font-size: 6rem;
 }
 
 h2 {
@@ -201,6 +174,13 @@ h2 {
 	padding: 0;
 	margin: 0;
  }
+
+h4 {
+	font-family: var(--rubrik);
+	font-style: normal;
+	color: var(--text-color-1);
+	text-align: right;
+}
 
  div.box-category1 {
 	border: 8px solid var(--text-color-1);
@@ -223,4 +203,52 @@ h2 {
  ul.category {
 	color: var(--text-color-1);
 	list-style-type: none;
+ }
+
+ .gallery-blogpost {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 40px;
+ }
+
+ .overlay {
+ 	height: 100%;
+ 	width: 0;
+ 	position: fixed;
+ 	z-index: 1;
+ 	top: 0;
+ 	left: 0;
+ 	background-color: rgb(0, 0, 0);
+ 	background-color: rgba(0, 0, 0, 0.9);
+ 	overflow-x: hidden;
+ 	transition: 0.5s;
+ }
+
+ .overlay-content {
+ 	position: relative;
+ 	top: 25%;
+ 	width: 100%;
+ 	text-align: center;
+ 	margin-top: 30px;
+ }
+
+ .overlay a {
+ 	padding: 8px;
+ 	text-decoration: none;
+ 	font-size: 36px;
+ 	color: #818181;
+ 	display: block;
+ 	transition: 0.3s;
+ }
+
+ .overlay a:hover,
+ .overlay a:focus {
+ 	color: #f1f1f1;
+ }
+
+ .overlay .closebtn {
+ 	position: absolute;
+ 	top: 20px;
+ 	right: 45px;
+ 	font-size: 60px;
  }

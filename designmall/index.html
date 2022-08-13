@@ -23,17 +23,21 @@
 </head>
 
 <body>
+	<div id="myNav" class="overlay">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<div class="overlay-content">
+			<a href="#">Hem</a>
+			<a href="#">Portfolio</a>
+			<a href="#">Om</a>
+			<a href="#">Kontakta</a>
+		</div>
+	</div>
 	<!-- Wrapper börjar-->
 	<div class="wrapper"> 
 		<header>
-			<nav>
-				<ul class="menu">
-					<li class="menu"><i class="fa-solid fa-house-chimney-blank"><a href="#">Hem</a></a></i></li>
-					<li class="menu"><a href="#">Portfolio</a></li>
-					<li class="menu"><a href="#">Om</a></li>
-					<li class="menu"><a href="#">Kontakta</a></li>
-				</ul>
-			</nav>
+			<h4>
+				<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+			</h4>
 		</header>
 		
 		<main>
@@ -55,26 +59,25 @@
 							aut id officia reprehenderit labore explicabo suscipit perspiciatis veniam accusamus cum ducimus! Expedita
 							consequuntur eaque, harum veniam totam, culpa corporis, tempora qui necessitatibus natus reiciendis aliquid
 							ipsum iusto in ad perferendis, aspernatur nesciunt porro nam! Voluptates similique, nesciunt, maiores natus
-							odio dolore beatae quidem sequi sapiente in illo, ullam error dolorum nostrum.	
+							odio dolore beatae quidem sequi sapiente in illo, ullam error dolorum nostrum. >>>	
 						</p>
-						<p class="read-more">Läs mera...</p>
+					</div>
+					<div class="imageslider">
+						<img src="../assets/img/slide1.jpg"width=500px>
 					</div>
 					<h2>Fler artiklar att läsa ...</h2>
-					<div class="older-blogposts">
-						<div class="read-more">
-							<p class="category-small-blogpost">Arbetsmiljö</p>
-							<h3>Bra arbetsvilkor och arbetsmiljö skapar ett tryggare Sverige</h3>
-							<p class="article-date"><i class="fa-solid fa-calendar"></i> 2022-08-06, <i class="fa-regular fa-clock"></i>08:27</p>
+					<div class="gallery-blogpost">
+						<div class="gallery-column">
+							<img src="../assets/img/Thumbnail - Wordpress.png" class="gallery-img" alt="Thumbnail blogpost">
 						</div>
-						<div class="read-more">
-							<p class="category-small-blogpost">Wordpress</p>
-							<h3>Bra arbetsvilkor och arbetsmiljö skapar ett tryggare Sverige</h3>
-							<p class="article-date"><i class="fa-solid fa-calendar"></i> 2022-08-06, <i class="fa-regular fa-clock"></i>08:27</p>
+						<div class="gallery-column">
+							<img src="../assets/img/Thumbnail - Wordpress.png" class="gallery-img" alt="Thumbnail blogpost">
 						</div>
-						<div class="read-more">
-							<p class="category-small-blogpost">Notion</p>
-							<h3>Bra arbetsvilkor och arbetsmiljö skapar ett tryggare Sverige</h3>
-							<p class="article-date"><i class="fa-solid fa-calendar"></i> 2022-08-06, <i class="fa-regular fa-clock"></i>08:27</p>
+						<div class="gallery-column">
+							<img src="../assets/img/Thumbnail - Wordpress.png" class="gallery-img" alt="Thumbnail blogpost">
+						</div>
+						<div class="gallery-column">
+							<img src="../assets/img/Thumbnail - Wordpress.png" class="gallery-img" alt="Thumbnail blogpost">
 						</div>
 					</div>
 				</div>
@@ -143,6 +146,14 @@
 		<!-- footer slutar -->
 	</div>
 	<!-- Wrapper slutar -->
+	<script>
+		function openNav() {
+			document.getElementById("myNav").style.width = "100%";
+		}
 
+		function closeNav() {
+			document.getElementById("myNav").style.width = "0%";
+		}
+	</script>
 </body>
 </html>
